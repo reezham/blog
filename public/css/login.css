@@ -1,0 +1,45 @@
+body{
+    
+    background-image: url(https://th.bing.com/th/id/R.91131cbba13397559b14a2386013f095?rik=WchdoisRrAxgKQ&riu=http%3a%2f%2fperkuliahankaryawan.com%2fwp-content%2fuploads%2f2021%2f05%2fWhatsApp-Image-2021-05-17-at-09.43.12-2-768x512.jpeg&ehk=VEhrl7V3ZIDeNNaI%2fT0FZaAmhzf91bmf0DizxABNGyQ%3d&risl=&pid=ImgRaw&r=0);
+}
+
+.kotak {
+  width: 300px; /* atur lebar kotak */
+  height: 100px; /* atur tinggi kotak */
+  margin: auto; /* atur margin kiri dan kanan menjadi "auto" */
+  display: flex; /* atur tampilan menjadi "flex" */
+  justify-content: center; /* atur posisi kotak secara horizontal menjadi "center" */
+  align-items: center; /* atur posisi kotak secara vertikal menjadi "center" */
+}
+.box{
+    width:80%;
+	height: 500px;
+    display: flexbox;
+    flex-wrap: wrap;
+	align-items: center;
+    justify-content: space-around;
+    background-color: aliceblue;
+    border-radius: 30px;
+    padding: 10px 10px;
+}
+
+.contentForm{
+    margin: 8%;
+}
+
+.form-control{
+    border-color: black;
+    border-style: solid;
+    border-width: 0 0 1px 0;
+}
+
+.form-control:focus{
+    border-width: 0 0 3px 0;
+    color: blueviolet;
+    box-shadow: none;
+    transition: all 0.1s ease-out;   
+}
+
+.btn{
+    border-radius: 20px;
+}
